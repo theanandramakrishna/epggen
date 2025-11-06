@@ -246,9 +246,11 @@ try {
 
 // Array of EPG URLs
 $urls = [
+    "https://epg.pw/api/epg.xml?lang=en&channel_id=469226", // KOMO-DT
     "https://epg.pw/api/epg.xml?lang=en&channel_id=467245", // KIRO-DT
     "https://epg.pw/api/epg.xml?lang=en&channel_id=466653", // KCPQ-DT
     "https://epg.pw/api/epg.xml?lang=en&channel_id=469833", // KING-DT
+    "https://epg.pw/api/epg.xml?lang=en&channel_id=467316", // KCTS-DT
     "https://epg.pw/api/epg.xml?lang=en&channel_id=467943", // WSB-DT
     "https://epg.pw/api/epg.xml?lang=en&channel_id=466443", // WAGA-DT
     "https://epg.pw/api/epg.xml?lang=en&channel_id=466182", // WXIA-DT
