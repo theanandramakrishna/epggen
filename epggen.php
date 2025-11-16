@@ -201,7 +201,7 @@ function fetchUrlLastModified(string $url): ?string
     return null;
 }
 
-$outputFile = __DIR__ . '/cached.output.xml';
+$outputFile = __DIR__ . '/epg.xml';
 $url = 'https://www.open-epg.com/generate/PKUYFvNN9n.xml.gz';
 
 // Check if cached.output.xml exists and is valid and return its contents if so
